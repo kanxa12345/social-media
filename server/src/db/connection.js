@@ -1,7 +1,7 @@
 // connection.js
 module.exports = {
   development: {
-    client: "mysql",
+    client: "mysql2",
     connection: {
       host: "localhost",
       user: "root",
