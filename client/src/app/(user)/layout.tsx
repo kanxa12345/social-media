@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-interface Props {}
+interface Props {
+  children: any;
+}
 
-const layout: React.FC<Props> = ({}) => {
-  return <div></div>;
+const layout: React.FC<Props> = ({ children }) => {
+  return <div>{children}</div>;
 };
 
 export default layout;
